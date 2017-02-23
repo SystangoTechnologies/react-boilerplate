@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+    :global .mobile.hidden,
+    :global .tablet.only,
+    :global .small.monitor.only,
+    :global .large.monitor.only {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    :global .mobile.only,
+    :global .tablet.hidden,
+    :global .small.monitor.only,
+    :global .large.monitor.only {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    :global .mobile.only,
+    :global .tablet.only,
+    :global .small.monitor.hidden,
+    :global .large.monitor.only {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    :global .mobile.only,
+    :global .tablet.only,
+    :global .small.monitor.only,
+    :global .large.monitor.hidden {
+        display: none !important;
+    }
+}

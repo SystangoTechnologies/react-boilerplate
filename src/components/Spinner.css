@@ -1,0 +1,39 @@
+.rotatingPlane {
+    composes: sk-rotating-plane from "spinkit/css/spinkit.css";
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    background-color: blue;
+}
+
+.wave {
+    composes: sk-wave from "spinkit/css/spinkit.css";
+    margin: 0 0;
+    height: 20px;
+}
+
+.waveRect {
+    composes: sk-rect from "spinkit/css/spinkit.css";
+    margin-right: 3px;
+    background-color: #C4B392 !important;
+}
+.waveRect1 {
+    composes: sk-rect1 from "spinkit/css/spinkit.css";
+    composes: waveRect;
+}
+.waveRect2 {
+    composes: sk-rect sk-rect2 from "spinkit/css/spinkit.css";
+    composes: waveRect;
+}
+.waveRect3 {
+    composes: sk-rect sk-rect3 from "spinkit/css/spinkit.css";
+    composes: waveRect;
+}
+.waveRect4 {
+    composes: sk-rect sk-rect4 from "spinkit/css/spinkit.css";
+    composes: waveRect;
+}
+.waveRect5 {
+    composes: sk-rect sk-rect5 from "spinkit/css/spinkit.css";
+    composes: waveRect;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- Setting the right viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title> Dashboard</title>
+    
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.css"/>
+    <link rel="stylesheet" href="webfontkit-20160302-125425/stylesheet.css" type="text/css" charset="utf-8" />
+  <style>
+    /*******************************
+    Change feed to timeline style
+  *******************************/
+
+    .ui.feed > .event .label {
+      border-left: 3px solid #DDDDDD;
+    }
+    .ui.feed > .event:last-child .label {
+      border-left-color: transparent;
+    }
+
+    .ui.feed > .event > .label {
+      margin-left: 1.6em;
+    }
+
+    .ui.feed > .event > .label > img,
+    .ui.feed > .event > .label > .icon {
+      background-color: #DDDDDD;
+      border-radius: 500rem;
+      color: #FFFFFF;
+      width: 3rem;
+      height: 3rem;
+      line-height: 1.5;
+      left: -1.6rem;
+      opacity: 1;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+<div id="outlet"></div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+</body>
+</html>

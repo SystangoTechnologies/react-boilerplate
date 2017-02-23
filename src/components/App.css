@@ -1,0 +1,16 @@
+/*
+  http://caniuse.com/#feat=flexbox
+  https://connect.microsoft.com/IE/feedback/details/802625/min-height-and-flexbox-flex-direction-column-dont-work-together-in-ie-10-11-preview
+  http://codepen.io/flangefrog/pen/IoKsd - workaround to prevent content from collapsing on IE 11
+*/
+.app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

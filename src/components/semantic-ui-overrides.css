@@ -1,0 +1,99 @@
+:global
+.second.tiny {position: absolute;z-index: 9999;}
+:global
+.column.input_size input {width: 60px !important;}
+:global
+.text-center {text-align: center !important;}
+
+@media only screen and (max-width: 767px) {
+  :global
+  .ui.tiny.modal {
+    width: 95%;
+    margin: 0em 0em 0em -47.5%;
+    z-index: 100;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  :global
+  .ui.tiny.modal {
+    width: 50%;
+    margin: 0em 0em 0em -25%;
+    z-index: 100;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  :global
+  .ui.tiny.modal {
+    width: 450px;
+    margin: 0em 0em 0em -190px;
+    z-index: 100;
+  }
+}
+
+:global
+.ui.secondary.pointing.menu .active.item {
+  border-top: none !important;
+}
+
+:global
+.ui.secondary.pointing.menu .item.active{
+  border-top: none !important;
+  outline: none !important;
+}
+
+:global
+.ui.secondary.pointing.menu .item:focus {
+  border-top: none !important;
+ outline: none !important;
+}
+
+:global
+.ui.feed > .event .label {
+  border-left: 2px solid #DDDDDD;
+}
+
+:global
+.ui.feed > .event:last-child .label {
+  border-left-color: transparent;
+}
+
+:global
+.ui.feed > .event > .label {
+  margin-left: 1.6em;
+  position: relative;
+  top: 8px;
+}
+
+:global
+.ui.feed > .event > .label > img,
+:global
+.ui.feed > .event > .label > .icon {border-radius: 500rem;color: #d4d4d5;
+    left: -10px !important;opacity: 1;position: relative;font-size: 1.5em !important;
+    background: #ffffff !important;height: 16px !important;padding: 0px !important;
+    width: 16px !important;top: 0 !important;line-height: 18px;}
+:global
+.ui.feed > .event > .label > .icon.warning{left: -12px !important;}
+:global
+.ui.feed > .event {padding: 0px !important;}
+:global
+.ui.dropdown.upward.active.visible .menu {
+    top: auto !important;
+    bottom: 100% !important;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.08) !important;
+    border-radius: .28571429rem .28571429rem 0 0;
+}
+:global
+form.motion_sensor .ui.dimmer{z-index: 2 !important;}
+:global
+.ui.inverted.menu {
+  border: 0px solid transparent;
+  background: #424243;
+  box-shadow: none;
+}
+:global
+.ui.inverted.segment {
+  background:  #424243;
+  color: rgba(255, 255, 255, 0.9);
+}

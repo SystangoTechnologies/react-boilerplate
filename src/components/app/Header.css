@@ -1,0 +1,31 @@
+.root {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #424243;
+    position: relative;
+}
+
+.logoLink {
+    cursor: pointer;
+}
+
+.logo {
+}
+
+.logoImgLarge {
+    margin: 12px 8px 0 0;
+    height: 30px;
+}
+
+.logoImgSmall {
+    margin: 12px 8px 0 0;
+    height: 30px;
+}
+
+.requestIndicator {
+    position: absolute;
+    top: 5px; bottom: 0; left: 0; right: 0;
+}
+.requestIndicator > div {
+    margin: 10px auto;
+}
