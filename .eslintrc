@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "standard"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "jsx-quotes": [ 2, "prefer-double"],
+    "arrow-parens": 0,
+    "no-console": [ 2, { "allow": [ "log", "warn", "error"]}],
+    "camelcase": 0,
+    "react/display-name": 0,
+    "react/prop-types": 0
+  }
+}
