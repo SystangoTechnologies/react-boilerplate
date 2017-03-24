@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://vgurnani-systango@bitbucket.org/vgurnani-systango/react-starter-kit.git"
+    "url": "git+https://github.com/SystangoTechnologies/react-boilerplate"
   },
   "author": "",
   "license": "ISC",
