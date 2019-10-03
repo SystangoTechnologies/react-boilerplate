@@ -1,4 +1,4 @@
-**This repository is deprecated now. There is a new boilerplate available here - https://github.com/SystangoTechnologies/react-redux-sagas-boilerplate
+**This repository is deprecated now. There is a new boilerplate available here - https://github.com/SystangoTechnologies/react-redux-sagas-boilerplate**
 
 # Code Style 
 
