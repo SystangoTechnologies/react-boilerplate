@@ -1,3 +1,5 @@
+**This repository is deprecated now. There is a new boilerplate available here - https://github.com/SystangoTechnologies/react-redux-sagas-boilerplate
+
 # Code Style 
 
 Code style should be followed as specified in `.editorconfig`. See http://editorconfig.org/ for specifics.
